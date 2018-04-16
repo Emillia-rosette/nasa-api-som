@@ -1,5 +1,5 @@
-require_relative '/services/neo_feed'
-require_relative'/services/neo_browse'
+require_relative 'services/neo_feed'
+require_relative'services/neo_browse'
 
 class NasaNeoWs
 	

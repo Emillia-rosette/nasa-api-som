@@ -14,7 +14,10 @@ class NeoFeedService
 		
 		@feed_post_data = JSON.parse(self.class.get("start_date=#{start_date}&end_date=#{end_date}&api_key=#{@api_key}").body)
 	end
-	
+	# def get_links_code_from_body_response
+	#  	@single_post_data["status"]
+	#  end
+
 end
 
 # feed = NeoFeedService.new
